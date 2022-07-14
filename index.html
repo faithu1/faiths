@@ -1,31 +1,72 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>First Webpage</title>
-        <style>
-            img {
-            width: 100px;
-            border-radius: 50px;
-            float: left;
-            margin-right: 10px;
-            }
+  <head>
+    <title>A Random Webpage</title>
+    <style>
+      img.pic {
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 10px;
+      }
 
-            p.username{
-                font-weight: bold;
-            }
+      p.username {
+        font-weight: bold;
+      }
 
-            em.sentence {
-                color: violet;
-                font-style: normal;
-            }
-        </style>
-    </head>
-    <body>
-        <img src="images/tokyoghoul.jpeg" alt="This image cannot be shown for now."/>
-        <p class="username">@Fhiro</p>
-        <em class="sentence">
-            Hi, <a href="about.html">here's my information</a>
-        </em>
-        <p>&copy;</p>
-    </body>
+      em.sentence {
+        color: violet;
+        font-style: normal;
+      }
+
+      img.pic2 {
+        width: 100px;
+        border-radius: 50px;
+        float: right;
+        margin-right: 10px;
+      }
+
+      p.username2 {
+        font-weight: bold;
+        top: 40px;
+        position: fixed;
+        right: 130px;
+      }
+
+      em.sentence2 {
+        color: violet;
+        font-style: normal;
+        position: fixed;
+        top: 88px;
+        right: 130px;
+      }
+
+      body {
+        background-color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="pic"
+      src="images/tokyoghoul.jpeg"
+      alt="This image cannot be shown for now."
+    />
+    <p class="username">@Fhiro</p>
+    <em class="sentence">
+      Hi, <a href="about.html">here's my information</a>
+    </em>
+    <a href="ss.html">
+      <img
+        class="pic2"
+        src="images/car kidnapper.png"
+        alt="This image cannot be shown for now."
+      />
+    </a>
+    <p class="username2">@Someone</p>
+    <em class="sentence2">
+      Click <a href="imposter.html">here</a> for free candy
+    </em>
+    <p>&copy;</p>
+  </body>
 </html>
